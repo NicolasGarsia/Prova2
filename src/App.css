@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(209, 209, 209);
+}
+
+/*NAV*/
+
+#banner {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(27, 55, 107);
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 2px solid black;
+}
+
+#png {
+  width: 150px;
+  height: 50px;
+  align-items: center;
+  box-shadow: 1px 2px 2px rgb(0, 0, 0);
+}
+
+#L1 {
+  font-size: 50px;
+  text-shadow: 4px 2px black;
+}
+
+#aluno {
+  font-size: 20px;
+  text-shadow: 2px 2px black;
+}
+
+/*Pagina*/
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  background-color: rgb(0, 238, 255);
+}
+
+/*Clubes*/
+
+.ListaC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.BoxT {
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 95%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(28, 68, 129);
+}
+
+.Nome {
+  font-size: 30px;
+  margin-left: 10px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
+
+.Apelido {
+  font-size: 20px;
+  margin-left: 10px;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  #banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(28, 68, 129);
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  #png {
+    width: 100px;
+    height: 30px;
+    align-items: center;
+  }
+
+  #L1 {
+    font-size: 100%;
+  }
+
+  #aluno {
+    font-size: 50%;
+  }
+
+  /*PAGINA*/
+
+  h2 {
+    margin-top: 20px;
+  }
+
+  /*Times*/
+  .ListaC {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .BoxT {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(28, 68, 129);
+  }
+}
