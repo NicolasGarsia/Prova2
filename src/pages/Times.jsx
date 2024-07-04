@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Nav from "../components/Nav";
 
 export default function Times() {
-  const [clubes, setClubes] = useState("");
+  const [clubes, setClubes] = useState([]);
   const [error, setError] = useState(null);
 
   useEffect(() => {
