@@ -1,6 +1,6 @@
 
 
-export default function Nav() {
+export default function Header() {
   return (
     <nav id="banner">
       <img id="png" src="Senai.png" />
